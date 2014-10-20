@@ -1,0 +1,34 @@
+{
+  "name": "miniature",
+  "description": "Client data object validation and caching",
+  "version": "0.3.0",
+  "repository": {
+    "url": "git://github.com/theporchrat/miniature.git"
+  },
+  "author": "@theporchrat Jason Quense",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theporchrat/miniature/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec ./test/*.js"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "clank": "theporchrat/clank",
+    "component-ajax": "0.0.2",
+    "lodash": "^2.4.1",
+    "property-expr": "^1.0.1",
+    "yup": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "gulp": "~3.8.8",
+    "gulp-mocha": "^1.0.0",
+    "gulp-plumber": "^0.6.5",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  }
+}
