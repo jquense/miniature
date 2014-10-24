@@ -15,8 +15,10 @@
     "test": "mocha -R spec ./test/*.js"
   },
   "dependencies": {
+    "Set": "^0.4.1",
     "bluebird": "^2.3.6",
     "clank": "theporchrat/clank",
+    "cobble": "^2.0.1",
     "component-ajax": "0.0.2",
     "lodash": "^2.4.1",
     "property-expr": "^1.0.1",
