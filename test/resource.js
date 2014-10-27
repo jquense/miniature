@@ -3,7 +3,6 @@
 var chai  = require('chai')
   , sinon = require("sinon")
   , sinonChai = require("sinon-chai")
-  , _   = require('lodash')
   , yup = require('yup')
   , sp = require('../lib/util/schema-path')
   , Resource = require('../lib/resource');

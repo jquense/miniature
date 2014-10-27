@@ -20,9 +20,9 @@
     "clank": "theporchrat/clank",
     "cobble": "^2.0.1",
     "component-ajax": "0.0.2",
-    "lodash": "^2.4.1",
+    "lodash-node": "^2.4.1",
     "property-expr": "^1.0.1",
-    "yup": "^0.1.1"
+    "yup": "^0.4.2"
   },
   "devDependencies": {
     "chai": "^1.9.1",
